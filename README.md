@@ -1,2 +1,6 @@
 # Reddit-Sentiment-Analysis
-Scraping the comments of specified subreddits or search terms in order to parse key words and perform Sentiment Analaysis. Part of Ram Hacks 2018 hackathon challenge
+Scraping the comments of specified subreddits or search terms in order to parse key words and perform Sentiment Analaysis. Part of Ram Hacks 2018 hackathon challenge.
+
+This project utilizes the Reddit API praw in order to read in all comments from the top, new, hot, or controversial posts in a specified subreddit or search term into a .csv file with their title, body, post id, and time created. R is then used to parse out keywords from the comments, and sentiment analysis is then used with the AFINN sentiment analysis library that comes with "tidytext." Finally, ggplot2 is used to display the data graphically in terms of sentiment and sentiment over time.
+
+In the example shown, I parsed every comment in the top 100 posts of Reddit under the search "Elon Musk OR SpaceX OR Tesla." There were 1,225 comments in those 100 posts that were a match with one of the three search terms. I have 3 main graphical displays of the data, the aggregated data of every search result combined on one graph, each search result on their own graph, and a final display of each search result on their own graph divided by month. The last graph would allow us to monitor if big events, such as if Elon Musk smoking weed on film affects any of his companies, or the affect that launching a car into space has.
