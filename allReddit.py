@@ -11,7 +11,7 @@ reddit = praw.Reddit(client_id='EZj05YvLpkzVaQ', \
                      client_secret='bq2dAoxEFpJMKJp7JoEDNwCADHM', \
                      user_agent='ScrapedUp', \
                      username='madmike34455', \
-                     password='jwmb34455')
+                     password='FalsePassword')
 
 
 
