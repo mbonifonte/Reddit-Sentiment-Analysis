@@ -7,10 +7,10 @@ import praw
 # In[30]:
 
 
-reddit = praw.Reddit(client_id='EZj05YvLpkzVaQ', \
-                     client_secret='bq2dAoxEFpJMKJp7JoEDNwCADHM', \
+reddit = praw.Reddit(client_id='FalseID', \
+                     client_secret='FalseSecret', \
                      user_agent='ScrapedUp', \
-                     username='madmike34455', \
+                     username='FalseUsername', \
                      password='FalsePassword')
 
 
